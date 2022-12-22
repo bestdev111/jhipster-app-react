@@ -1,0 +1,25 @@
+{
+  "changelogDate": "20150805124936",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "label",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "3"
+    }
+  ],
+  "name": "Label",
+  "pagination": "no",
+  "relationships": [
+    {
+      "otherEntityName": "operation",
+      "otherEntityRelationshipName": "label",
+      "ownerSide": false,
+      "relationshipId": 1,
+      "relationshipName": "operation",
+      "relationshipType": "many-to-many"
+    }
+  ]
+}
